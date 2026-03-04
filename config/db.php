@@ -1,25 +1,13 @@
 <?php
-define('DB_HOST', 'localhost');
-define('DB_USER', 'root');
-define('DB_PASS', '');
-define('DB_NAME', 'student_mgmt_db');
+$host     = getenv('MYSQLHOST');
+$port     = getenv('MYSQLPORT');
+$dbname   = getenv('MYSQLDATABASE');
+$username = getenv('MYSQLUSER');
+$password = getenv('MYSQLPASSWORD');
 
-$conn = mysqli_connect(DB_HOST, DB_USER, DB_PASS, DB_NAME);
-
-if (!$conn) {
-    die("<h3 style='color:red'>Database Connection Failed: " . mysqli_connect_error() . "</h3>");
-}
-?>
-
-<?php
-$host = "localhost";
-$user = "root";
-$pass = "";
-$db   = "student_mgmt_db";
-
-$conn = mysqli_connect($host, $user, $pass, $db);
+$conn = mysqli_connect($host, $username, $password, $dbname, (int)$port);
 
 if (!$conn) {
-    die("<h3 style='color:red'>Connection Failed: " . mysqli_connect_error() . "</h3>");
+    die("Connection failed: " . mysqli_connect_error());
 }
 ?>

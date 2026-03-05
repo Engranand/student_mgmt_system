@@ -55,7 +55,7 @@ $fees = mysqli_query($conn, "
     <title>Manage Fees</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
-    <link href="/student_mgmt_system/assets/css/admin.css" rel="stylesheet">
+    <link href="/assets/css/admin.css" rel="stylesheet">
 </head>
 <body>
 
@@ -205,7 +205,7 @@ $fees = mysqli_query($conn, "
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-<script src="/student_mgmt_system/assets/js/main.js"></script>
+<script src="/assets/js/main.js"></script>
 <script>
     document.getElementById('statusSelect').addEventListener('change', function() {
         document.getElementById('paidDateDiv').style.display =

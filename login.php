@@ -46,7 +46,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     <title>Login | Student Management System</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
-    <link href="/student_mgmt_system/assets/css/login.css" rel="stylesheet">
+    <link href="/assets/css/login.css" rel="stylesheet">
 </head>
 <body>
     <body>
@@ -115,6 +115,6 @@ for (let i = 0; i < 40; i++) {
 }
 </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="/student_mgmt_system/assets/js/main.js"></script>
+    <script src="/assets/js/main.js"></script>
 </body>
 </html>

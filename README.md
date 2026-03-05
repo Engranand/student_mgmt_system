@@ -129,7 +129,8 @@ http://localhost/student_mgmt_system
 
 ## 👨‍💻 Developer
 
-**Anand** — B.Tech Student  
+**Anand Raj
+** — B.Tech Student  
 GitHub: [@Engranand](https://github.com/Engranand)
 
 ## 📄 License

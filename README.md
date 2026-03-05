@@ -2,7 +2,7 @@
 
 A web-based Student Management System built with PHP, MySQL, and Bootstrap 5. This project allows admins, teachers, and students to manage academic activities efficiently.
 
-## 🌐 Live Demo
+## 🌐 Live Demo ("Note: Free hosting is used, HTTPS not available")
 [Click here to view](http://studentmgmt.infinityfreeapp.com/login.php)
 
 ## 👥 User Roles

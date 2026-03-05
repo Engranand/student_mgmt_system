@@ -1,11 +1,9 @@
 {
-    auto_https off
-    admin off
+	auto_https off
+	admin off
 }
 
 :80 {
-    root * /app
-    encode zstd gzip
-    php_server
-    file_server
+	root * /app
+	php_server
 }

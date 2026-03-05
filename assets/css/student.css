@@ -172,3 +172,60 @@ body {
 }
 
 .info-card .avatar i { color: white; font-size: 22px; }
+
+/* ── RESPONSIVE ── */
+@media (max-width: 768px) {
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+        min-height: auto;
+    }
+
+    .main-content {
+        margin-left: 0 !important;
+        padding: 15px;
+    }
+
+    .sidebar .nav-link {
+        padding: 10px 15px;
+        display: inline-block;
+        margin: 2px 5px;
+    }
+
+    .sidebar-brand {
+        padding: 10px;
+    }
+
+    .sidebar hr {
+        display: none;
+    }
+
+    .stat-card {
+        margin-bottom: 15px;
+    }
+
+    .topbar {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+
+    .table-responsive {
+        font-size: 12px;
+    }
+
+    .card-body {
+        padding: 15px;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
+    .col-md-4, .col-md-8, 
+    .col-md-3, .col-md-9,
+    .col-md-5, .col-md-7 {
+        width: 100% !important;
+    }
+}

@@ -270,3 +270,21 @@ body {
     background: #fff0f0;
     color: #c62828;
 }
+
+@media (max-width: 768px) {
+    .login-wrapper {
+        padding: 10px;
+    }
+
+    .login-header {
+        padding: 25px 20px;
+    }
+
+    .login-body {
+        padding: 20px;
+    }
+
+    .login-header h4 {
+        font-size: 18px;
+    }
+}
